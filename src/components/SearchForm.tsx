@@ -40,7 +40,7 @@ export const SearchForm = () => {
         onChange={e => setSearchValue(e.target.value)}
       />
       <button>
-        <img src="/img/icons/search.png" alt="" />
+        <img src="img/icons/search.png" alt="" />
       </button>
       {searchValue && (
         <ul className="searchList">

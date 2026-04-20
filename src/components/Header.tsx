@@ -34,10 +34,10 @@ export const Header = () => {
               <SearchForm />
               <div className="icons">
                 <Link to={'/favourites'}className="save">
-                  <img src="/img/icons/like.png" alt="like-icon" />
+                  <img src="img/icons/like.png" alt="like-icon" />
                 </Link>
                 <Link to={'/cart'} className="cart">
-                  <img src="/img/icons/cart.png" alt="cart-icon" />
+                  <img src="img/icons/cart.png" alt="cart-icon" />
                   {cartItems === 0 ? '' : <span className="header-cart__count">{cartItems}</span>}
                   
                 </Link>

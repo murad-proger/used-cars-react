@@ -31,7 +31,7 @@ export const ProductCartIcon = ({product}: ProductCartIconProps) => {
 
   return (
       <div className="cart_icon" onClick={onProductCartIconToggle}>
-        <img src={added ? "/img/icons/cart_icon2.png" : "/img/icons/cart_icon.png"} className="icon2" alt="" />
+        <img src={added ? "img/icons/cart_icon2.png" : "img/icons/cart_icon.png"} className="icon2" alt="" />
       </div>
   );
 };

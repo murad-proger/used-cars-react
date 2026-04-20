@@ -31,7 +31,7 @@ export const LikeIcon = ({product}: LikeIconProps) => {
 
   return ( 
     <span className="liked_icon" onClick={onLikeIconToggle}>
-      <img src={liked ? "/img/icons/liked_good2.png" : "/img/icons/seroye_serdce.png"} className="icon2" alt="" />
+      <img src={liked ? "img/icons/liked_good2.png" : "img/icons/seroye_serdce.png"} className="icon2" alt="" />
     </span>
   );
 };

@@ -4,7 +4,7 @@ export const Logo = () => {
   return (
     <div className="logo">
       <Link to={'/'}>
-        <img src="/img/logo.webp" alt="" />
+        <img src="img/logo.webp" alt="" />
         <span className="logo_text"> used-cars </span>
       </Link>
     </div>
