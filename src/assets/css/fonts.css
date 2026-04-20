@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'pfdintextpro';
+    src: url('../fonts/pfdintextpro-regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'pfdintextpro-light';
+    src: url('../fonts/pfdintextpro-light.ttf');
+    font-style: normal;
+}
