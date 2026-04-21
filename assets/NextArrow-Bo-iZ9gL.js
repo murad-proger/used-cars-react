@@ -1,0 +1,1 @@
+import{j as r}from"./index-CZqHGhvn.js";const e=({onClick:s})=>r.jsx("div",{className:"slider_arrow arrow_left",onClick:s,children:r.jsx("span",{})}),o=({onClick:s})=>r.jsx("div",{className:"slider_arrow arrow_right",onClick:s,children:r.jsx("span",{})});export{o as N,e as P};
