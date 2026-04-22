@@ -20,10 +20,6 @@
         padding: 0 10px;
     }
 
-    .header_panel {
-        margin-left: 20px;
-    }
-
     .parameters .close {
         display: block;
     }
@@ -290,12 +286,6 @@
         align-items: center;
     }
 
-    .header_panel .vin_search {
-        width: auto;
-        flex-grow: 1;
-        margin: 0 20px;
-    }
-
     .index,
     .breadcrumbs_section {
         margin-top: 20px;
@@ -535,9 +525,9 @@
     }
 
     .header_panel .vin_search {
-        width: 300px;
-        margin: 0 0 20px;
+        width: 330px;
     }
+
     .news {
         padding: 60px 10px 120px;
     }
@@ -905,6 +895,7 @@
         position: relative;
         width: 100%;
         order: 3;
+        margin-top: 10px;
     }
 
     .header_panel .bottom .icons {

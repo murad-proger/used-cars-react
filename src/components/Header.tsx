@@ -37,28 +37,24 @@ export const Header = () => {
       <header className="header">
         <div className="container">
           <Logo />
-
           <div className="header_panel">
-            <div className="bottom">
-              <SearchForm />
+            <SearchForm />
+          </div>
+          <div className="icons">
+            <Link to={"/favourites"} className="save">
+              <img src="img/icons/like.png" alt="like-icon" />
+            </Link>
 
-              <div className="icons">
-                <Link to={"/favourites"} className="save">
-                  <img src="img/icons/like.png" alt="like-icon" />
-                </Link>
-
-                <Link to={"/cart"} className="cart">
-                  <img src="img/icons/cart.png" alt="cart-icon" />
-                  {cartItems === 0 ? (
-                    ""
-                  ) : (
-                    <span className="header-cart__count">
-                      {cartItems}
-                    </span>
-                  )}
-                </Link>
-              </div>
-            </div>
+            <Link to={"/cart"} className="cart">
+              <img src="img/icons/cart.png" alt="cart-icon" />
+              {cartItems === 0 ? (
+                ""
+              ) : (
+                <span className="header-cart__count">
+                  {cartItems}
+                </span>
+              )}
+            </Link>
           </div>
           <Hamburger isActive={isMenuOpen} onClick={toggleMenu} />
         </div>
